@@ -1,4 +1,4 @@
-// index.js
+
 const express = require("express");
 const mongoose = require("mongoose");
 const multer = require("multer");
@@ -7,9 +7,9 @@ const cors = require("cors");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const Stripe = require("stripe");
-import dotenv from "dotenv";
+const dotenv = require("dotenv");
 
-dotenv.config(); // load env variables
+dotenv.config(); 
 
 const app = express();
 
